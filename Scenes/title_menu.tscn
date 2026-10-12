@@ -1,0 +1,153 @@
+[gd_scene format=3 uid="uid://c2wqhapjee1t7"]
+
+[ext_resource type="Script" uid="uid://dthlffpxk06v3" path="res://Scenes/title_menu.gd" id="1_y6n0q"]
+
+[sub_resource type="SystemFont" id="SystemFont_p0uhb"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_lct54"]
+font = SubResource("SystemFont_p0uhb")
+font_size = 50
+font_color = Color(0.2784314, 0.54901963, 0.7490196, 1)
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Title_Menu" type="Control" unique_id=865846211]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1, 0.98594517)
+script = ExtResource("1_y6n0q")
+
+[node name="Container" type="Container" parent="." unique_id=1055851666]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GeneralPanel" type="Panel" parent="Container" unique_id=1572565606]
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="Title" type="Label" parent="Container/GeneralPanel" unique_id=666418141]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 69.0
+grow_horizontal = 2
+text = "A Beginners Guide to Godot Nodes"
+label_settings = SubResource("LabelSettings_lct54")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InfoPanel" type="Panel" parent="Container" unique_id=312631937]
+layout_mode = 2
+
+[node name="BasicsLessonSelection" type="BoxContainer" parent="Container/InfoPanel" unique_id=1180437271]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 163.0
+grow_horizontal = 2
+
+[node name="Basic_Info" type="VBoxContainer" parent="Container/InfoPanel/BasicsLessonSelection" unique_id=1076098629]
+layout_mode = 2
+size_flags_horizontal = 8
+
+[node name="Label" type="Label" parent="Container/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1005090753]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+text = "The Basics:"
+
+[node name="Node1" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1036484563]
+layout_mode = 2
+text = "What are Nodes?"
+
+[node name="Node2" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1699206225]
+layout_mode = 2
+text = "What do they bring to the table?"
+
+[node name="Button" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1689334513]
+layout_mode = 2
+text = "How should I go about using them?"
+
+[node name="Node Types" type="VBoxContainer" parent="Container/InfoPanel/BasicsLessonSelection" unique_id=183898094]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Container/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1324245443]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+text = "Node Types:"
+
+[node name="Node1" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1389732099]
+layout_mode = 2
+text = "2D Nodes
+"
+
+[node name="Node2" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1250639091]
+layout_mode = 2
+text = "3D Nodes"
+
+[node name="Button" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1876971366]
+layout_mode = 2
+text = "Control Nodes"
+
+[node name="Miscallaneous Nodes" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Node Types" unique_id=723780875]
+layout_mode = 2
+text = "Miscalleneous Nodes"
+
+[node name="Usage Cases" type="VBoxContainer" parent="Container/InfoPanel/BasicsLessonSelection" unique_id=38376027]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Container/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=266770179]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+text = "Usage Cases"
+
+[node name="Node1" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=583243855]
+layout_mode = 2
+text = "When to use 2D nodes
+"
+
+[node name="Node2" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=220600147]
+layout_mode = 2
+text = "When to use 3D nodes"
+
+[node name="Button" type="Button" parent="Container/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=1137708703]
+layout_mode = 2
+text = "When to use control Nodes"
+
+[node name="IntermediateLessonSelection" type="BoxContainer" parent="Container/InfoPanel" unique_id=326595769]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="Container/InfoPanel/IntermediateLessonSelection" unique_id=38805854]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "This is a placeholder
+"
+
+[node name="HardLessonSelection + Quiz" type="BoxContainer" parent="Container/InfoPanel" unique_id=2121889383]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Button" type="Button" parent="Container/InfoPanel/HardLessonSelection + Quiz" unique_id=1801776911]
+layout_mode = 2
+text = "This is also a placeHolder
+"
