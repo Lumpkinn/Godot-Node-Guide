@@ -2,22 +2,26 @@
 	"introduction":
 		{
 		"Title":"Introduction!",
-		"Body": "Welcome to my guide! My name is Lumpkinn, and I'm here to help you understand nodes in godot just a little bit better. This guide is going to cover the basics of 2D Nodes, 3D Nodes, Control Nodes, and show you a few more important ones. Keep in mind that the list and a ton of information about nodes change with the build of godot you're using, so always make sure to check the official documentation if there are any issues. \n And with that, lets get started!"
+		"Body": "Welcome to my guide! My name is Lumpkinn, and I'm here to help you understand nodes in godot just a little bit better. This guide is going to cover the basics of 2D Nodes, 3D Nodes, Control Nodes, and show you a few more important ones. Keep in mind that the list and a ton of information about nodes change with the build of godot you're using, so always make sure to check the official documentation if there are any issues. \n And with that, lets get started!",
+		"Tooltip": "Throughout this guide, i'll be adding some extra info in the tooltips, so make sure to check them!"
 		},
 	"BasicsInfo0":
 		{
 			"Title":"What are Nodes?",
-			"Body":"",
+			"Body":"Nodes in Godot are kind of like building blocks. They all have their own purposes, and each of them serve a specific function in a project. The main parts that each node have are a name, and a type. You typically also have parent-child relationships between nodes as well, for both functionality, and organizational purposes. You can also attach a script to the nodes as well, allowing you to give it custom behaviors.",
+			"Tooltip":"If you've used nodes in another game engine, they're kind of the same here in godot! just make sure to check the documentation for any fringe cases!"
 		},
 	"BasicsInfo1":
 		{
-			"Title":"What do they bring to the table?",
-			"Body":"",
+			"Title":"Why are they important?",
+			"Body":"Nodes basically are the most central part of the engine. Think of them like templates for doing certain actions. If you didn't have that template, you'd have no idea on how to accomplish certain things.",
+			"Tooltip":""
 		},
 	"BasicsInfo2":
 		{
 			"Title":"How do I I use them?",
-			"Body":"",
+			"Body":"To add nodes, you can either hit the plus symbol in the top left corner of the engine, or you can use the shortcut ctrl-a to automatically open up the node selection menu. From there, search for the node that you want, and add it to the project. From there, you can either click on the nodes to change certain things about them, or go to the inspector window on the right of the screen to ecit its properties. ",
+			"Tooltip":""
 		},
 	"TypeInfo0":
 		{

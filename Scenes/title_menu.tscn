@@ -10,6 +10,8 @@ font_size = 50
 font_color = Color(0.2784314, 0.54901963, 0.7490196, 1)
 outline_color = Color(0, 0, 0, 1)
 
+[sub_resource type="Theme" id="Theme_y6n0q"]
+
 [node name="Title_Menu" type="Control" unique_id=865846211]
 layout_mode = 3
 anchors_preset = 15
@@ -62,6 +64,7 @@ grow_vertical = 0
 [node name="BasicsLessonSelection" type="BoxContainer" parent="InfoPanel" unique_id=1180437271]
 layout_mode = 2
 size_flags_vertical = 0
+theme = SubResource("Theme_y6n0q")
 alignment = 1
 
 [node name="Basic_Info" type="VBoxContainer" parent="InfoPanel/BasicsLessonSelection" unique_id=1076098629]

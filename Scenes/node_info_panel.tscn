@@ -54,6 +54,11 @@ grow_vertical = 2
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 fit_content = true
 
-[node name="Sprite2D" type="Sprite2D" parent="BasePanel/InfoPanel" unique_id=1602444566]
-position = Vector2(832, 0)
+[node name="PicPanel" type="Panel" parent="BasePanel/InfoPanel" unique_id=605018169]
+layout_mode = 0
+offset_left = 832.0
+offset_right = 872.0
+offset_bottom = 40.0
+
+[node name="Sprite2D" type="Sprite2D" parent="BasePanel/InfoPanel/PicPanel" unique_id=1602444566]
 texture = ExtResource("1_uv0yw")
