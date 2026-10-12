@@ -26,37 +26,45 @@
 	"TypeInfo0":
 		{
 			"Title":"2D Nodes?",
-			"Body":"",
+			"Body":"Godot splits its nodes into three main groups, 2D Nodes, 3D Nodes, and Control Nodes. There are other nodes that don't fit into this system however, and for the purposes of this tutorial, I will be reffering to them as miscallaneous nodes. \n This part of the guide will be focusing on 2D nodes specifically. \n 
+			",
+			"Tooltip":""
 		},
 	"TypeInfo1":
 		{
 			"Title":"3D Nodes",
 			"Body":"",
+			"Tooltip":""
 		},
 	"TypeInfo2":
 		{
 			"Title":"Control Nodes?",
 			"Body":"",
+			"Tooltip":""
 		},
 	"TypeInfo3":
 		{
 			"Title":"Miscallaneous Nodes?",
 			"Body":"",
+			"Tooltip":""
 		},
 	"BasicUsageInfo0":
 		{
 			"Title":"When to use 2D Nodes?",
 			"Body":"",
+			"Tooltip":""
 		},
 	"BasicUsageInfo1":
 		{
 			"Title":"When to use 3D Nodes?",
 			"Body":"",
+			"Tooltip":""
 		},
 	"BasicUsageInfo2":
 		{
 			"Title":"When to use Control Nodes?",
 			"Body":"",
+			"Tooltip":""
 		},
 
 }
