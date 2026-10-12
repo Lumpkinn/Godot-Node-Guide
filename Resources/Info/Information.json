@@ -1,0 +1,58 @@
+{
+	"introduction":
+		{
+		"Title":"Introduction!",
+		"Body": "Welcome to my guide! My name is Lumpkinn, and I'm here to help you understand nodes in godot just a little bit better. This guide is going to cover the basics of 2D Nodes, 3D Nodes, Control Nodes, and show you a few more important ones. Keep in mind that the list and a ton of information about nodes change with the build of godot you're using, so always make sure to check the official documentation if there are any issues. \n And with that, lets get started!"
+		},
+	"BasicsInfo0":
+		{
+			"Title":"What are Nodes?",
+			"Body":"",
+		},
+	"BasicsInfo1":
+		{
+			"Title":"What do they bring to the table?",
+			"Body":"",
+		},
+	"BasicsInfo2":
+		{
+			"Title":"How do I I use them?",
+			"Body":"",
+		},
+	"TypeInfo0":
+		{
+			"Title":"2D Nodes?",
+			"Body":"",
+		},
+	"TypeInfo1":
+		{
+			"Title":"3D Nodes",
+			"Body":"",
+		},
+	"TypeInfo2":
+		{
+			"Title":"Control Nodes?",
+			"Body":"",
+		},
+	"TypeInfo3":
+		{
+			"Title":"Miscallaneous Nodes?",
+			"Body":"",
+		},
+	"BasicUsageInfo0":
+		{
+			"Title":"When to use 2D Nodes?",
+			"Body":"",
+		},
+	"BasicUsageInfo1":
+		{
+			"Title":"When to use 3D Nodes?",
+			"Body":"",
+		},
+	"BasicUsageInfo2":
+		{
+			"Title":"When to use Control Nodes?",
+			"Body":"",
+		},
+
+}
