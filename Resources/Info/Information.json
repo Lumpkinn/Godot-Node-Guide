@@ -26,8 +26,7 @@
 	"TypeInfo0":
 		{
 			"Title":"2D Nodes?",
-			"Body":"Godot splits its nodes into three main groups, 2D Nodes, 3D Nodes, and Control Nodes. There are other nodes that don't fit into this system however, and for the purposes of this tutorial, I will be reffering to them as miscallaneous nodes. \n This part of the guide will be focusing on 2D nodes specifically. \n 
-			 All 2D nodes fit under the most basic form of Node, which is incidentally just called '2D Node'. After that, it branches out into a multitude of different types of nodes. All of these nodes are specifically made for making a 2D game, with some examples being 'CollisionBody2D', which creates collision on a 2D plane. There are a ton more nodes under this category, and some are for stuff like lighting and sound",
+			"Body":"Godot splits its nodes into three main groups, 2D Nodes, 3D Nodes, and Control Nodes. There are other nodes that don't fit into this system however, and for the purposes of this tutorial, I will be reffering to them as miscallaneous nodes. \n This part of the guide will be focusing on 2D nodes specifically. \n All 2D nodes fit under the most basic form of Node, which is incidentally just called '2D Node'. After that, it branches out into a multitude of different types of nodes. All of these nodes are specifically made for making a 2D game, with some examples being 'CollisionBody2D', which creates collision on a 2D plane. There are a ton more nodes under this category, and some are for stuff like lighting and sound",
 			"Tooltip":"Make sure to check the documentation to see what specific nodes do!"
 		},
 	"TypeInfo1":
@@ -39,31 +38,31 @@
 	"TypeInfo2":
 		{
 			"Title":"Control Nodes?",
-			"Body":"",
-			"Tooltip":""
+			"Body":"Control nodes are a little special. They're mainly used for things like a games UI, settings, and menus. For example, this guide was made with mostly control nodes! They also have a special formatting system, which focuses on their position inside of another control node called a container. These containers control how the elements are stored as well!",
+			"Tooltip":"There are tons of free resources for using control nodes, and i suggest that you take a look at them, mostly because we'd be here all day if i tried to explain them."
 		},
 	"TypeInfo3":
 		{
 			"Title":"Miscallaneous Nodes?",
-			"Body":"",
-			"Tooltip":""
+			"Body":"There are a ton of nodes in Godot that don't really fit into the classification system that i've made. So, this section of the guide serves to shed a bit of light on them. \n Typically, these nodes are for universal functions that you'd need across all three aforementioned groups. One such example would be a timer. For example, you could use a timer in a 2d platformer to create urgency. You could also use it in a 3d game as a sort of confirmation, and you could also use it in a settings menu to revert settings if the user doesn't confirm them. All of these nodes are able to fit throughout the multiple different systems you'd find throughout Godot, and thus, they aren't in any specific group.",
+			"Tooltip":"Once again, go check the documentation if you need some more info."
 		},
 	"BasicUsageInfo0":
 		{
 			"Title":"When to use 2D Nodes?",
-			"Body":"",
-			"Tooltip":""
+			"Body":"2D nodes in Godot are pretty obviously going to be used whenever you make a 2D game. But a ton of them have specific use cases for 2D development. For example, take the two nodes CharacterBody 2D, and RigidBody 2D. They both can be used for creating a player character, but the RigidBody2D is better suited for physics objects, as opposed to the CharacterBody2D.",
+			"Tooltip":"There are a ton more examples of this, so make sure to compare the two, and see which one fits your use case better."
 		},
 	"BasicUsageInfo1":
 		{
 			"Title":"When to use 3D Nodes?",
-			"Body":"",
-			"Tooltip":""
+			"Body":"It's essentially the same issue that you'll see with 2D nodes. If you'd like a similar example, we can use the CSG nodes. These nodes are pretty good for prototyping, but not the best when you're intrested in pushing a finished project. ",
+			"Tooltip":"Use CSG nodes with disgression!"
 		},
 	"BasicUsageInfo2":
 		{
 			"Title":"When to use Control Nodes?",
-			"Body":"",
+			"Body":"Control Nodes are pretty much made for GUI elements, and settings. Whenever you want something displayed on the screen, you should probably go look at some control nodes.",
 			"Tooltip":""
 		},
 
