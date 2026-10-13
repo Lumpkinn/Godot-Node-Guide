@@ -8,7 +8,7 @@
 	"BasicsInfo0":
 		{
 			"Title":"What are Nodes?",
-			"Body":"Nodes in Godot are kind of like building blocks. They all have their own purposes, and each of them serve a specific function in a project. The main parts that each node have are a name, and a type. You typically also have parent-child relationships between nodes as well, for both functionality, and organizational purposes. You can also attach a script to the nodes as well, allowing you to give it custom behaviors.",
+			"Body":"Nodes in Godot are kind of like building blocks. They all have their own purposes, and each of them serve a specific function in a project. The main parts that each node have are a name, and a type. You typically also have parent-child relationships between nodes as well, for both functionality, and organizational purposes. All nodes are born from the base type 'Node'. You can also attach a script to the nodes as well, allowing you to give it custom behaviors.",
 			"Tooltip":"If you've used nodes in another game engine, they're kind of the same here in godot! just make sure to check the documentation for any fringe cases!"
 		},
 	"BasicsInfo1":
@@ -27,14 +27,14 @@
 		{
 			"Title":"2D Nodes?",
 			"Body":"Godot splits its nodes into three main groups, 2D Nodes, 3D Nodes, and Control Nodes. There are other nodes that don't fit into this system however, and for the purposes of this tutorial, I will be reffering to them as miscallaneous nodes. \n This part of the guide will be focusing on 2D nodes specifically. \n 
-			",
-			"Tooltip":""
+			 All 2D nodes fit under the most basic form of Node, which is incidentally just called '2D Node'. After that, it branches out into a multitude of different types of nodes. All of these nodes are specifically made for making a 2D game, with some examples being 'CollisionBody2D', which creates collision on a 2D plane. There are a ton more nodes under this category, and some are for stuff like lighting and sound",
+			"Tooltip":"Make sure to check the documentation to see what specific nodes do!"
 		},
 	"TypeInfo1":
 		{
 			"Title":"3D Nodes",
-			"Body":"",
-			"Tooltip":""
+			"Body":"The next group of nodes that'll be covered will be 3D Nodes. 3D nodes are practically the same as 2D Nodes, but adapted for a 3D project. For example, a CollisionBody 3D Node accomplishes the same thing that a CollisionBody 2D node does, it just adds an extra axis. There are some",
+			"Tooltip": "Feel free to check the documentation for the specifics on these nodes!"
 		},
 	"TypeInfo2":
 		{

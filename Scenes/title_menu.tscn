@@ -27,6 +27,7 @@ scale = Vector2(1, 0.98594517)
 script = ExtResource("1_y6n0q")
 
 [node name="Container" type="PanelContainer" parent="." unique_id=55656097]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -291,3 +292,5 @@ text = "When to use 3D nodes"
 [node name="Button" type="Button" parent="InfoPanel/HardLessonSelection + Quiz/Usage Cases" unique_id=1044702964]
 layout_mode = 2
 text = "When to use control Nodes"
+
+[connection signal="pressed" from="InfoPanel/BasicsLessonSelection/Basic_Info/Node1" to="." method="_on_node_1_pressed"]
