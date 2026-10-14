@@ -5,61 +5,61 @@
 		"Body": "Welcome to my guide! My name is Lumpkinn, and I'm here to help you understand nodes in godot just a little bit better. This guide is going to cover the basics of 2D Nodes, 3D Nodes, Control Nodes, and show you a few more important ones. Keep in mind that the list and a ton of information about nodes change with the build of godot you're using, so always make sure to check the official documentation if there are any issues. \n And with that, lets get started!",
 		"Tooltip": "Throughout this guide, i'll be adding some extra info in the tooltips, so make sure to check them!"
 		},
-	"BasicsInfo0":
+	"BasicsInfo1":
 		{
 			"Title":"What are Nodes?",
 			"Body":"Nodes in Godot are kind of like building blocks. They all have their own purposes, and each of them serve a specific function in a project. The main parts that each node have are a name, and a type. You typically also have parent-child relationships between nodes as well, for both functionality, and organizational purposes. All nodes are born from the base type 'Node'. You can also attach a script to the nodes as well, allowing you to give it custom behaviors.",
 			"Tooltip":"If you've used nodes in another game engine, they're kind of the same here in godot! just make sure to check the documentation for any fringe cases!"
 		},
-	"BasicsInfo1":
+	"BasicsInfo2":
 		{
 			"Title":"Why are they important?",
 			"Body":"Nodes basically are the most central part of the engine. Think of them like templates for doing certain actions. If you didn't have that template, you'd have no idea on how to accomplish certain things.",
 			"Tooltip":""
 		},
-	"BasicsInfo2":
+	"BasicsInfo3":
 		{
 			"Title":"How do I I use them?",
 			"Body":"To add nodes, you can either hit the plus symbol in the top left corner of the engine, or you can use the shortcut ctrl-a to automatically open up the node selection menu. From there, search for the node that you want, and add it to the project. From there, you can either click on the nodes to change certain things about them, or go to the inspector window on the right of the screen to ecit its properties. ",
 			"Tooltip":""
 		},
-	"TypeInfo0":
+	"TypeInfo1":
 		{
 			"Title":"2D Nodes?",
 			"Body":"Godot splits its nodes into three main groups, 2D Nodes, 3D Nodes, and Control Nodes. There are other nodes that don't fit into this system however, and for the purposes of this tutorial, I will be reffering to them as miscallaneous nodes. \n This part of the guide will be focusing on 2D nodes specifically. \n All 2D nodes fit under the most basic form of Node, which is incidentally just called '2D Node'. After that, it branches out into a multitude of different types of nodes. All of these nodes are specifically made for making a 2D game, with some examples being 'CollisionBody2D', which creates collision on a 2D plane. There are a ton more nodes under this category, and some are for stuff like lighting and sound",
 			"Tooltip":"Make sure to check the documentation to see what specific nodes do!"
 		},
-	"TypeInfo1":
+	"TypeInfo2":
 		{
 			"Title":"3D Nodes",
 			"Body":"The next group of nodes that'll be covered will be 3D Nodes. 3D nodes are practically the same as 2D Nodes, but adapted for a 3D project. For example, a CollisionBody 3D Node accomplishes the same thing that a CollisionBody 2D node does, it just adds an extra axis. There are some",
 			"Tooltip": "Feel free to check the documentation for the specifics on these nodes!"
 		},
-	"TypeInfo2":
+	"TypeInfo3":
 		{
 			"Title":"Control Nodes?",
 			"Body":"Control nodes are a little special. They're mainly used for things like a games UI, settings, and menus. For example, this guide was made with mostly control nodes! They also have a special formatting system, which focuses on their position inside of another control node called a container. These containers control how the elements are stored as well!",
 			"Tooltip":"There are tons of free resources for using control nodes, and i suggest that you take a look at them, mostly because we'd be here all day if i tried to explain them."
 		},
-	"TypeInfo3":
+	"TypeInfo4":
 		{
 			"Title":"Miscallaneous Nodes?",
 			"Body":"There are a ton of nodes in Godot that don't really fit into the classification system that i've made. So, this section of the guide serves to shed a bit of light on them. \n Typically, these nodes are for universal functions that you'd need across all three aforementioned groups. One such example would be a timer. For example, you could use a timer in a 2d platformer to create urgency. You could also use it in a 3d game as a sort of confirmation, and you could also use it in a settings menu to revert settings if the user doesn't confirm them. All of these nodes are able to fit throughout the multiple different systems you'd find throughout Godot, and thus, they aren't in any specific group.",
 			"Tooltip":"Once again, go check the documentation if you need some more info."
 		},
-	"BasicUsageInfo0":
+	"BasicUsageInfo1":
 		{
 			"Title":"When to use 2D Nodes?",
 			"Body":"2D nodes in Godot are pretty obviously going to be used whenever you make a 2D game. But a ton of them have specific use cases for 2D development. For example, take the two nodes CharacterBody 2D, and RigidBody 2D. They both can be used for creating a player character, but the RigidBody2D is better suited for physics objects, as opposed to the CharacterBody2D.",
 			"Tooltip":"There are a ton more examples of this, so make sure to compare the two, and see which one fits your use case better."
 		},
-	"BasicUsageInfo1":
+	"BasicUsageInfo2":
 		{
 			"Title":"When to use 3D Nodes?",
 			"Body":"It's essentially the same issue that you'll see with 2D nodes. If you'd like a similar example, we can use the CSG nodes. These nodes are pretty good for prototyping, but not the best when you're intrested in pushing a finished project. ",
 			"Tooltip":"Use CSG nodes with disgression!"
 		},
-	"BasicUsageInfo2":
+	"BasicUsageInfo3":
 		{
 			"Title":"When to use Control Nodes?",
 			"Body":"Control Nodes are pretty much made for GUI elements, and settings. Whenever you want something displayed on the screen, you should probably go look at some control nodes.",

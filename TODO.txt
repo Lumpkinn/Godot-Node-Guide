@@ -1,3 +1,6 @@
 What i need to do:
 	Get a basic script that takes the input from the buttons, and changes a global variable based off of what button has been pressed. it needs to be GLOBAL otherwise, it wont effect the other scene. after that, its just also loading the photos, doing some basic design, and then ill be done. 
-	
+	set random disclaimer to fade in, and show the button after like 2 seconds. also maybe add music?? idrk
+	Possible:
+		Settings menu
+		shader work
