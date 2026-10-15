@@ -72,6 +72,7 @@ grow_horizontal = 2
 grow_vertical = 0
 
 [node name="BasicsLessonSelection" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=1180437271]
+visible = false
 layout_mode = 2
 size_flags_vertical = 0
 theme = SubResource("Theme_y6n0q")
@@ -149,7 +150,6 @@ layout_mode = 2
 text = "When to use control Nodes"
 
 [node name="IntermediateLessonSelection" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=326595769]
-visible = false
 layout_mode = 2
 size_flags_vertical = 4
 alignment = 1
@@ -163,7 +163,7 @@ alignment = 1
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
-text = "The Basics:"
+text = "Intermediate stuff:"
 
 [node name="Node1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Basic_Info" unique_id=2022338111]
 layout_mode = 2
