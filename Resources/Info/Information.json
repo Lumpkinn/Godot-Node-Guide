@@ -24,11 +24,11 @@
 			"Tooltip":""
 		},
 	"BasicInfo4":
-	{
-		"Title":"The Scene tree",
-		"Body":"All of the currently active nodes that you're using are located in something called the scene tree. The scene tree holds all of your nodes, and lets you organize them in parent-child relationships. It bascially acts as a container for you to hold all of your nodes.",
-		"Tooltip":"There is quite a bit more to know about the Scene tree. We'll be referencing it later on in the guide, and if you still have issues with it after, make sure to check the documentation!"
-	},
+		{
+			"Title":"The Scene tree",
+			"Body":"All of the currently active nodes that you're using are located in something called the scene tree. The scene tree holds all of your nodes, and lets you organize them in parent-child relationships. It bascially acts as a container for you to hold all of your nodes.",
+			"Tooltip":"There is quite a bit more to know about the Scene tree. We'll be referencing it later on in the guide, and if you still have issues with it after, make sure to check the documentation!"
+		},
 	"TypeInfo1":
 		{
 			"Title":"2D Nodes?",
@@ -78,11 +78,11 @@
 			"Tooltip":".new() and add_child() haven't really been tweaked in a bit, so they shouldn't cause any issues if you use them properly. If there are any issues, go look at the documentation."
 		},
 	"CodeAndNodesInfo2":
-	{
-		"Title":"Referencing nodes from the scene tree",
-		"Body":"If you want your scripts to effect your nodes, you'll have to reference them in the script somehow. You've got two main ways to go about this. One way, which I think is the easiest is using the '$' notation. To do this, type out the path to the node, and add a $ right before the path. You can also assign this to a variable to make it easier for yourself. The other method is using get_node(). Pass the path to the method, and then you've got the node.",
-		"Tooltip":""
-	},
+		{
+			"Title":"Referencing nodes from the scene tree",
+			"Body":"If you want your scripts to effect your nodes, you'll have to reference them in the script somehow. You've got two main ways to go about this. One way, which I think is the easiest is using the '$' notation. To do this, type out the path to the node, and add a $ right before the path. You can also assign this to a variable to make it easier for yourself. The other method is using get_node(). Pass the path to the method, and then you've got the node.",
+			"Tooltip":""
+		},
 	"CodeAndNodesInfo3":
 		{
 			"Title":"Removing nodes from memory",
@@ -125,7 +125,7 @@
 			"Tooltip":""
 
 		},
-"":
+	"":
 		{
 			"Title":"",
 			"Body":"",

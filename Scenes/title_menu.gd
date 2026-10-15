@@ -36,6 +36,18 @@ func openInfoScreen(InfoTitle, InfoBody, InfoTip):
 	get_tree().change_scene_to_file("res://Scenes/node_info_panel.tscn")
 
 
+func _ready() -> void:
+	#testing bind() instead
+	var button = get_tree().get_nodes_in_group("InfoButtons")
+	for InfoButton:Button in button:
+		var pressed = Callable(self, "_on_pressed").bind(InfoButton)
+		InfoButton.pressed.connect(pressed)
+
+
+
+func _on_pressed(which: Button):
+	
+	pass
 #we gonna stick with the stupid, unoptimized solution for now
 #to whoevers reading this, I'm so sorry.
 

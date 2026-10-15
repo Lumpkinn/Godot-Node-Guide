@@ -72,7 +72,6 @@ grow_horizontal = 2
 grow_vertical = 0
 
 [node name="BasicsLessonSelection" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=1180437271]
-visible = false
 layout_mode = 2
 size_flags_vertical = 0
 theme = SubResource("Theme_y6n0q")
@@ -89,17 +88,21 @@ size_flags_horizontal = 4
 size_flags_vertical = 8
 text = "The Basics:"
 
-[node name="BasicButton1" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1036484563]
+[node name="BasicsInfo1" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1036484563 groups=["InfoButtons"]]
 layout_mode = 2
 text = "What are Nodes?"
 
-[node name="BasicButton2" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1699206225]
+[node name="BasicsInfo2" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1699206225 groups=["InfoButtons"]]
 layout_mode = 2
-text = "What do they bring to the table?"
+text = "Why are they important?"
 
-[node name="BasicButton3" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1689334513]
+[node name="BasicsInfo3" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1689334513 groups=["InfoButtons"]]
 layout_mode = 2
-text = "How should I go about using them?"
+text = "How do I use them?"
+
+[node name="BasicsInfo4" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info" unique_id=1510662904 groups=["InfoButtons"]]
+layout_mode = 2
+text = "The Scene Tree"
 
 [node name="Node Types" type="VBoxContainer" parent="GeneralPanel/InfoPanel/BasicsLessonSelection" unique_id=183898094]
 layout_mode = 2
@@ -110,20 +113,20 @@ size_flags_horizontal = 4
 size_flags_vertical = 8
 text = "Node Types:"
 
-[node name="TypeButton1" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1389732099]
+[node name="TypeInfo1" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1389732099 groups=["InfoButtons"]]
 layout_mode = 2
 text = "2D Nodes
 "
 
-[node name="TypeButton2" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1250639091]
+[node name="TypeInfo2" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1250639091 groups=["InfoButtons"]]
 layout_mode = 2
 text = "3D Nodes"
 
-[node name="TypeButton3" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1876971366]
+[node name="TypeInfo3" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types" unique_id=1876971366 groups=["InfoButtons"]]
 layout_mode = 2
 text = "Control Nodes"
 
-[node name="TypeButton4" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types" unique_id=723780875]
+[node name="TypeInfo4" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types" unique_id=723780875 groups=["InfoButtons"]]
 layout_mode = 2
 text = "Miscalleneous Nodes"
 
@@ -154,78 +157,74 @@ layout_mode = 2
 size_flags_vertical = 4
 alignment = 1
 
-[node name="Basic_Info" type="VBoxContainer" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection" unique_id=924704664]
+[node name="Code-Node" type="VBoxContainer" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection" unique_id=924704664]
 layout_mode = 2
 size_flags_horizontal = 8
 alignment = 1
 
-[node name="Label" type="Label" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Basic_Info" unique_id=914457457]
+[node name="Label" type="Label" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Code-Node" unique_id=914457457]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
-text = "Intermediate stuff:"
+text = "Code, and Nodes"
 
-[node name="Node1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Basic_Info" unique_id=2022338111]
+[node name="CodeAndNodesInfo1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Code-Node" unique_id=2022338111]
 layout_mode = 2
-text = "What are Nodes?"
+text = "Making Nodes with code"
 
-[node name="Node2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Basic_Info" unique_id=1364721550]
+[node name="CodeAndNodesInfo2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Code-Node" unique_id=1364721550]
 layout_mode = 2
-text = "What do they bring to the table?"
+text = "Referencing nodes from the Scene Tree"
 
-[node name="Button" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Basic_Info" unique_id=942938490]
+[node name="CodeAndNodesInfo3" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Code-Node" unique_id=942938490 groups=["InfoButtons"]]
 layout_mode = 2
-text = "How should I go about using them?"
+text = "Removing Nodes from memory"
 
-[node name="Node Types" type="VBoxContainer" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection" unique_id=303478079]
+[node name="Node-Signal" type="VBoxContainer" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection" unique_id=303478079]
 layout_mode = 2
 alignment = 1
 
-[node name="Label" type="Label" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node Types" unique_id=1181391028]
+[node name="Label" type="Label" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node-Signal" unique_id=1181391028]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
-text = "Node Types:"
+text = "Signals and Nodes"
 
-[node name="Node1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node Types" unique_id=1228865881]
+[node name="NodesSignalInfo1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node-Signal" unique_id=1228865881]
 layout_mode = 2
-text = "2D Nodes
-"
+text = "What are Signals?"
 
-[node name="Node2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node Types" unique_id=785123756]
+[node name="NodesSignalInfo2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node-Signal" unique_id=785123756]
 layout_mode = 2
-text = "3D Nodes"
+text = "Using Signals"
 
-[node name="Button" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node Types" unique_id=2015649487]
+[node name="NodesSignalInfo3" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node-Signal" unique_id=2015649487 groups=["InfoButtons"]]
 layout_mode = 2
-text = "Control Nodes"
+text = "Signals, and bind()"
 
-[node name="Miscallaneous Nodes" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node Types" unique_id=1150349950]
-layout_mode = 2
-text = "Miscalleneous Nodes"
-
-[node name="Usage Cases" type="VBoxContainer" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection" unique_id=413285782]
+[node name="N-A" type="VBoxContainer" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection" unique_id=413285782]
+visible = false
 layout_mode = 2
 alignment = 1
 
-[node name="Label" type="Label" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Usage Cases" unique_id=1944065176]
+[node name="Label" type="Label" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1944065176]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
 text = "Usage Cases"
 
-[node name="Node1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Usage Cases" unique_id=1317375097]
+[node name="Node1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1317375097]
 layout_mode = 2
 text = "When to use 2D nodes
 "
 
-[node name="Node2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Usage Cases" unique_id=1288136885]
+[node name="Node2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1288136885]
 layout_mode = 2
 text = "When to use 3D nodes"
 
-[node name="Button" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Usage Cases" unique_id=712381487]
+[node name="BasicUsageInfo3" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=712381487 groups=["InfoButtons"]]
 layout_mode = 2
-text = "When to use control Nodes"
+text = "When to use Control Nodes"
 
 [node name="HardLessonSelection + Quiz" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=2121889383]
 visible = false
@@ -251,7 +250,7 @@ text = "What are Nodes?"
 layout_mode = 2
 text = "What do they bring to the table?"
 
-[node name="Button" type="Button" parent="GeneralPanel/InfoPanel/HardLessonSelection + Quiz/Basic_Info" unique_id=1805242717]
+[node name="Button" type="Button" parent="GeneralPanel/InfoPanel/HardLessonSelection + Quiz/Basic_Info" unique_id=1805242717 groups=["InfoButtons"]]
 layout_mode = 2
 text = "How should I go about using them?"
 
@@ -273,7 +272,7 @@ text = "2D Nodes
 layout_mode = 2
 text = "3D Nodes"
 
-[node name="Button" type="Button" parent="GeneralPanel/InfoPanel/HardLessonSelection + Quiz/Node Types" unique_id=432920024]
+[node name="Button" type="Button" parent="GeneralPanel/InfoPanel/HardLessonSelection + Quiz/Node Types" unique_id=432920024 groups=["InfoButtons"]]
 layout_mode = 2
 text = "Control Nodes"
 
@@ -299,7 +298,7 @@ text = "When to use 2D nodes
 layout_mode = 2
 text = "When to use 3D nodes"
 
-[node name="Button" type="Button" parent="GeneralPanel/InfoPanel/HardLessonSelection + Quiz/Usage Cases" unique_id=1044702964]
+[node name="Button" type="Button" parent="GeneralPanel/InfoPanel/HardLessonSelection + Quiz/Usage Cases" unique_id=1044702964 groups=["InfoButtons"]]
 layout_mode = 2
 text = "When to use control Nodes"
 
@@ -307,14 +306,16 @@ text = "When to use control Nodes"
 visible = false
 layout_mode = 1
 
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicButton1" to="." method="_on_basic_button_1_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicButton2" to="." method="_on_basic_button_2_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicButton3" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicButton3" to="." method="_on_basic_button_3_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeButton1" to="." method="_on_type_button_1_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeButton2" to="." method="_on_type_button_2_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeButton3" to="." method="_on_type_button_3_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeButton4" to="." method="_on_type_button_4_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo1" to="." method="_on_basic_button_1_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo2" to="." method="_on_basic_button_2_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo3" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo3" to="." method="_on_basic_button_3_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo4" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo4" to="." method="_on_basic_button_3_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo1" to="." method="_on_type_button_1_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo2" to="." method="_on_type_button_2_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo3" to="." method="_on_type_button_3_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo4" to="." method="_on_type_button_4_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases/Usage1" to="." method="_on_usage_1_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases/Usage2" to="." method="_on_usage_2_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases/Usage3" to="." method="_on_usage_3_pressed"]

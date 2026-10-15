@@ -12,7 +12,6 @@ grow_vertical = 2
 script = ExtResource("1_v6p8y")
 
 [node name="RandomDisclaimer" type="VBoxContainer" parent="." unique_id=846703642]
-visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -31,7 +30,7 @@ layout_mode = 2
 size_flags_horizontal = 6
 size_flags_vertical = 0
 text = "This is a placeholder. If you see this, something has gone very wrong....
-please let me know whereever you might've downloaded this......"
+please let me know wherever you might've downloaded this......"
 fit_content = true
 autowrap_mode = 0
 horizontal_alignment = 1
@@ -42,3 +41,5 @@ layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
 text = "Proceed to guide"
+
+[connection signal="pressed" from="RandomDisclaimer/ExitButton" to="." method="_on_exit_button_pressed"]
