@@ -215,16 +215,16 @@ text = "Usage Cases"
 
 [node name="Node1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1317375097]
 layout_mode = 2
-text = "When to use 2D nodes
+text = "Special things about Control Nodes
 "
 
 [node name="Node2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1288136885]
 layout_mode = 2
-text = "When to use 3D nodes"
+text = "Control Anchors"
 
 [node name="BasicUsageInfo3" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=712381487 groups=["InfoButtons"]]
 layout_mode = 2
-text = "When to use Control Nodes"
+text = "Control Node Alignment"
 
 [node name="HardLessonSelection + Quiz" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=2121889383]
 visible = false

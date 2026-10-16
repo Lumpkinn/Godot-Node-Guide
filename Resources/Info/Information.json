@@ -111,180 +111,119 @@
 			"Tooltip":""
 
 		},
-	"":
+	"CustomNodes1":
 		{
 			"Title":"",
 			"Body":"",
 			"Tooltip":""
 
 		},
-	"":
+	"CustomNodes2":
 		{
 			"Title":"",
 			"Body":"",
 			"Tooltip":""
 
 		},
-	"":
+	"CustomNodes3":
 		{
 			"Title":"",
 			"Body":"",
 			"Tooltip":""
+		},
+	"QuizQuestion1":
+		{
+			"Title":"Question 1",
+			"Body":"What is a node?",
+			"Question1":"Special parts of the engine that exist to complete specialized functions.",
+			"Question2":"Something that Godot uses to store code, and has no greater effect on the engine.",
+			"Question3":"Something that Godot uses to make linked lists.",
+			"Answer":"Special parts of the engine that exist to complete specialized functions.",
+			"Tooltip":"No hints!"
 
 		},
-"":
+	"QuizQuestion2":
 		{
-			"Title":"",
+			"Title":"Question 2",
+			"Body":"What basic properties do all nodes need have?",
+			"Question1":"A name, and a type.",
+			"Question2":"A name, type, and a script",
+			"Question3":"A type.",
+			"Answer":"A name, and a type.",
+			"Tooltip":"I'm not going to bail you out this time!"
+
+		},
+	"QuizQuestion3":
+		{	"Title":"Question 3",
+			"Body":"What part of Godot holds all of the nodes, and allows for parent-child relationships?",
+			"Question1":"The Scene tree.",
+			"Question2":"The file system.",
+			"Question3":"Node Classes.",
+			"Answer":"The Scene tree.",
+			"Tooltip":"C'mon, you should know this!"
+		},
+	"QuizQuestion4":
+		{	"Title":"Question 4",
+			"Body":"How many groups did I seperate nodes into during this guide?",
+			"Question1":"2",
+			"Question2":"4",
+			"Question3":"3",
+			"Answer":"4",
+			"Tooltip":"Do you think it'd be best if you looked over the guide again?"
+		},
+	"QuizQuestion5":
+		{
+			"Title":"Question 5",
 			"Body":"",
+			"Question1":"",
+			"Question2":"",
+			"Question3":"",
+			"Answer":"",
+			"Tooltip":""
+		},
+	"QuizQuestion6":
+		{
+			"Title":"Question 6",
+			"Body":"",
+			"Question1":"",
+			"Question2":"",
+			"Question3":"",
+			"Answer":"",
 			"Tooltip":""
 
 		},
-"":
+	"QuizQuestion7":
 		{
-			"Title":"",
+			"Title":"Question 7",
 			"Body":"",
+			"Question1":"",
+			"Question2":"",
+			"Question3":"",
+			"Answer":"",
 			"Tooltip":""
 
 		},
-"":
+	"QuizQuestion8":
 		{
-			"Title":"",
+			"Title":"Question 8",
 			"Body":"",
+			"Question1":"",
+			"Question2":"",
+			"Question3":"",
+			"Answer":"",
 			"Tooltip":""
 
 		},
-"":
+	"QuizQuestion9":
 		{
-			"Title":"",
+			"Title":"Question 9",
 			"Body":"",
+			"Question1":"",
+			"Question2":"",
+			"Question3":"",
+			"Answer":"",
 			"Tooltip":""
 
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
-"":
-		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
-
-		},
+		}
 
 }
