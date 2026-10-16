@@ -107,7 +107,7 @@
 	"NodesSignalInfo3":
 		{
 			"Title":"Signals and bind()",
-			"Body":"Lets say that you have a ton of buttons in your scene, and you want each button to do something unique. You could just make one signal for each button, and then repeat it for each method, but that isn't too good of a use of your time. To solve this issue, you'll have to use the .bind() method. Bind() basically lets you get a unique handler for each node, which you can then use to alter what happens in the code.",
+			"Body":"Lets say that you have a ton of buttons in your scene, and you want each button to do something unique. You could just make one signal for each button, and then repeat it for each method, but that isn't too good of a use of your time. To solve this issue, you'll have to use the .bind() method. Bind() basically lets you get a connect a value to each instance of a node, which you can then use to make specific things happen based off of the node itself.",
 			"Tooltip":""
 
 		},
@@ -174,55 +174,55 @@
 	"QuizQuestion5":
 		{
 			"Title":"Question 5",
-			"Body":"",
-			"Question1":"",
-			"Question2":"",
-			"Question3":"",
-			"Answer":"",
-			"Tooltip":""
+			"Body":"What methods would you use to create a new node programically?",
+			"Question1":"newNode()",
+			"Question2":"createNewNode()",
+			"Question3":"new()",
+			"Answer":"new()",
+			"Tooltip":"you'd better not be cheating using the documentation!"
 		},
 	"QuizQuestion6":
 		{
 			"Title":"Question 6",
-			"Body":"",
-			"Question1":"",
-			"Question2":"",
-			"Question3":"",
-			"Answer":"",
-			"Tooltip":""
+			"Body":"What are Signals?",
+			"Question1":"A flag that lets the program know whenever a specified action has occurred.",
+			"Question2":"A way that godot connects with outside programs.",
+			"Question3":"Something that Godot uses to start and stop scenes.",
+			"Answer":"A flag that lets the program know whenever a specified action has occurred.",
+			"Tooltip":"This is a pretty important thing to know, so you'd better internalize it!"
 
 		},
 	"QuizQuestion7":
 		{
 			"Title":"Question 7",
-			"Body":"",
-			"Question1":"",
-			"Question2":"",
-			"Question3":"",
-			"Answer":"",
-			"Tooltip":""
+			"Body":"What analogy did I use for signals",
+			"Question1":"Screaming into the void.",
+			"Question2":"Firing a starting pistol.",
+			"Question3":"Poking a sleeping bear.",
+			"Answer":"Screaming into the void.",
+			"Tooltip":"If you didn't get this one, i doubt that you bothered reading through this at all >:("
 
 		},
 	"QuizQuestion8":
 		{
 			"Title":"Question 8",
-			"Body":"",
-			"Question1":"",
-			"Question2":"",
-			"Question3":"",
-			"Answer":"",
-			"Tooltip":""
+			"Body":"What does .bind() do?",
+			"Question1":"It connects an argument to a method.",
+			"Question2":"It creates a special method specifically for a method.",
+			"Question3":"It links two nodes together.",
+			"Answer":"It connects an argument to a method.",
+			"Tooltip":"Almost finished with the quiz!"
 
 		},
 	"QuizQuestion9":
 		{
 			"Title":"Question 9",
-			"Body":"",
+			"Body":"How do you create custom nodes?",
 			"Question1":"",
 			"Question2":"",
 			"Question3":"",
 			"Answer":"",
-			"Tooltip":""
+			"Tooltip":"There you go! Now you're finished."
 
 		}
 
