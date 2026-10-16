@@ -113,22 +113,22 @@
 		},
 	"CustomNodes1":
 		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
+			"Title":"Can I make my own nodes?",
+			"Body":"In Godot, you'll occasionally need to make your own nodes for a multitude of reasons. Maybe one node doesn't go as indepth as you might need it to. Maybe you need a specialized node for something. Well, as long as you're ok with writing a bit of code, you can make your own nodes! ",
+			"Tooltip":"This stuff is pretty advanced. Make sure to ask for help if you get stumped."
 
 		},
 	"CustomNodes2":
 		{
-			"Title":"",
-			"Body":"",
-			"Tooltip":""
+			"Title":"Making custom nodes.",
+			"Body":"To start making a custom node, you'll need to let godot know that you're trying to make a custom node, and to do so, you need to add the access modifier '@tool'. After that, you need to make the code extend EditorPlugin, and then define a class. After that, the implementation is up to you.",
+			"Tooltip":"Make sure that your code is clean and readable so it'll be easy to write documentation for the code."
 
 		},
 	"CustomNodes3":
 		{
-			"Title":"",
-			"Body":"",
+			"Title":"Using your custom node",
+			"Body":"To use your custom node, you can go to the node menu and grab it from there. If you want to change certain values about it in code, add '@export' infront of the variable definition.  ",
 			"Tooltip":""
 		},
 	"QuizQuestion1":
@@ -218,10 +218,10 @@
 		{
 			"Title":"Question 9",
 			"Body":"How do you create custom nodes?",
-			"Question1":"",
-			"Question2":"",
-			"Question3":"",
-			"Answer":"",
+			"Question1":"Add '@tool' at the beginning of your program, and have it extend EditorPlugin.",
+			"Question2":"Go into godot's source code and modify an existing node.",
+			"Question3":"You can't make custom nodes.",
+			"Answer":"Add '@tool' at the beginning of your program, and have it extend EditorPlugin.",
 			"Tooltip":"There you go! Now you're finished."
 
 		}

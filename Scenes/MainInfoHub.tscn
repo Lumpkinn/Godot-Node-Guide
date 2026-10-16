@@ -30,6 +30,7 @@ outline_size = 8
 outline_color = Color(0.83033526, 0.83033514, 0.83033514, 1)
 
 [sub_resource type="Theme" id="Theme_y6n0q"]
+BoxContainer/constants/separation = 10
 
 [node name="Title_Menu" type="Control" unique_id=865846211]
 layout_mode = 3
@@ -70,6 +71,7 @@ anchor_bottom = 1.0
 offset_top = -514.1183
 grow_horizontal = 2
 grow_vertical = 0
+theme_override_constants/separation = 50
 
 [node name="BasicsLessonSelection" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=1180437271]
 layout_mode = 2

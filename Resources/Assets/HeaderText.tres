@@ -2,31 +2,25 @@
 
 [ext_resource type="FontFile" uid="uid://dndqasmtxxyie" path="res://Resources/Assets/pusab-font/Pusab-MnqP.otf" id="1_brofs"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cx0xm"]
-content_margin_left = 4.0
-content_margin_top = 4.0
-content_margin_right = 4.0
-content_margin_bottom = 4.0
-bg_color = Color(0.26666668, 0.26666668, 0.8352941, 1)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
-corner_radius_top_left = 3
-corner_radius_top_right = 3
-corner_radius_bottom_right = 3
-corner_radius_bottom_left = 3
-corner_detail = 5
-expand_margin_left = 2.0
-expand_margin_top = 2.0
-expand_margin_right = 2.0
-expand_margin_bottom = 2.0
-
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6575c"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4gxqj"]
+bg_color = Color(0.040963523, 0.43204063, 0.6756683, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_blend = true
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+expand_margin_left = 10.0
+expand_margin_top = 3.0
+expand_margin_right = 10.0
+expand_margin_bottom = 3.0
 
 [resource]
 default_font = ExtResource("1_brofs")
-Label/colors/font_color = Color(0.3254902, 0.62352943, 0.78039217, 1)
+Label/colors/font_color = Color(0.05694352, 0.16992313, 0.22743157, 1)
 Label/colors/font_outline_color = Color(0, 0, 0, 1)
 Label/colors/font_shadow_color = Color(0, 0, 0, 0)
 Label/constants/line_spacing = 3
@@ -36,5 +30,5 @@ Label/constants/shadow_offset_y = 1
 Label/constants/shadow_outline_size = 1
 Label/font_sizes/font_size = 16
 Label/fonts/font = ExtResource("1_brofs")
-Label/styles/focus = SubResource("StyleBoxFlat_cx0xm")
-Label/styles/normal = SubResource("StyleBoxEmpty_6575c")
+Label/styles/normal = SubResource("StyleBoxFlat_4gxqj")
+VBoxContainer/constants/separation = 5
