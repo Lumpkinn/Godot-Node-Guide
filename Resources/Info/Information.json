@@ -23,7 +23,7 @@
 			"Body":"To add nodes, you can either hit the plus symbol in the top left corner of the engine, or you can use the shortcut ctrl-a to automatically open up the node selection menu. From there, search for the node that you want, and add it to the project. From there, you can either click on the nodes to change certain things about them, or go to the inspector window on the right of the screen to ecit its properties. ",
 			"Tooltip":""
 		},
-	"BasicInfo4":
+	"BasicsInfo4":
 		{
 			"Title":"The Scene tree",
 			"Body":"All of the currently active nodes that you're using are located in something called the scene tree. The scene tree holds all of your nodes, and lets you organize them in parent-child relationships. It bascially acts as a container for you to hold all of your nodes.",

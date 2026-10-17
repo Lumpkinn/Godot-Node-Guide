@@ -11,12 +11,33 @@ shader = ExtResource("2_du6tf")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k5h4w"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mn67n"]
+bg_color = Color(0, 0.11820372, 0.2096709, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4or3i"]
+bg_color = Color(0.36701876, 0.61325574, 0.8971466, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i3lg4"]
+bg_color = Color(1.347661e-06, 0.33242306, 0.47874844, 1)
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ox7fa"]
 bg_color = Color(0.5684477, 0.90865993, 0.91377026, 1)
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
 
 [sub_resource type="Theme" id="Theme_ox7fa"]
 default_base_scale = 0.26
 default_font = ExtResource("3_du6tf")
+Button/styles/focus = SubResource("StyleBoxFlat_mn67n")
+Button/styles/normal = SubResource("StyleBoxFlat_4or3i")
+Button/styles/pressed = SubResource("StyleBoxFlat_i3lg4")
 Label/colors/font_color = Color(0.4876901, 0.7213269, 0.9043669, 1)
 Label/colors/font_outline_color = Color(0, 0, 0, 1)
 Label/colors/font_shadow_color = Color(0, 0, 0, 0)
@@ -34,6 +55,8 @@ font_size = 50
 font_color = Color(0.2784314, 0.54901963, 0.7490196, 1)
 outline_size = 8
 outline_color = Color(0.83033526, 0.83033514, 0.83033514, 1)
+shadow_size = 8
+shadow_color = Color(0, 0, 0, 0.49019608)
 
 [sub_resource type="Theme" id="Theme_y6n0q"]
 BoxContainer/constants/separation = 10
@@ -58,9 +81,13 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_k5h4w")
 
 [node name="Title" type="Label" parent="GeneralPanel" unique_id=666418141]
 layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-offset_bottom = 69.0
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -471.0
+offset_top = 22.313614
+offset_right = 472.0
+offset_bottom = 91.313614
 grow_horizontal = 2
 size_flags_horizontal = 0
 theme = SubResource("Theme_ox7fa")
@@ -149,16 +176,16 @@ size_flags_horizontal = 4
 size_flags_vertical = 8
 text = "Usage Cases"
 
-[node name="Usage1" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=583243855]
+[node name="BasicUsageInfo1" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=583243855 groups=["InfoButtons"]]
 layout_mode = 2
 text = "When to use 2D nodes
 "
 
-[node name="Usage2" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=220600147]
+[node name="BasicUsageInfo2" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=220600147 groups=["InfoButtons"]]
 layout_mode = 2
 text = "When to use 3D nodes"
 
-[node name="Usage3" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=1137708703]
+[node name="BasicUsageInfo3" type="Button" parent="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases" unique_id=1137708703 groups=["InfoButtons"]]
 layout_mode = 2
 text = "When to use control Nodes"
 
@@ -237,6 +264,7 @@ layout_mode = 2
 text = "Using Custom Nodes"
 
 [node name="HardLessonSelection + Quiz" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=2121889383]
+visible = false
 layout_mode = 2
 size_flags_vertical = 8
 alignment = 1
@@ -325,6 +353,6 @@ layout_mode = 1
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo2" to="." method="_on_type_button_2_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo3" to="." method="_on_type_button_3_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo4" to="." method="_on_type_button_4_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases/Usage1" to="." method="_on_usage_1_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases/Usage2" to="." method="_on_usage_2_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases/Usage3" to="." method="_on_usage_3_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases/BasicUsageInfo1" to="." method="_on_usage_1_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases/BasicUsageInfo2" to="." method="_on_usage_2_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Usage Cases/BasicUsageInfo3" to="." method="_on_usage_3_pressed"]

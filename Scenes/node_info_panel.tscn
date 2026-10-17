@@ -2,6 +2,11 @@
 
 [ext_resource type="Script" uid="uid://dgyblftucr4q0" path="res://Scripts/node_info_panel.gd" id="1_mn67n"]
 [ext_resource type="Texture2D" uid="uid://cae7w7kjdx7c1" path="res://Resources/Assets/icon.svg" id="1_uv0yw"]
+[ext_resource type="Shader" uid="uid://cmcm8cmp0t2s1" path="res://Resources/Background.gdshader" id="2_i3lg4"]
+[ext_resource type="Theme" uid="uid://wcd7ehpkaena" path="res://Resources/Assets/HeaderText.tres" id="3_4or3i"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_du6tf"]
+shader = ExtResource("2_i3lg4")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qeos7"]
 content_margin_left = 20.0
@@ -63,6 +68,7 @@ grow_vertical = 2
 script = ExtResource("1_mn67n")
 
 [node name="BasePanel" type="Panel" parent="." unique_id=1155255840]
+material = SubResource("ShaderMaterial_du6tf")
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -76,10 +82,10 @@ layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = 32.0
-offset_top = 46.0
-offset_right = 271.0
-offset_bottom = 149.0
+offset_left = -82.0
+offset_top = 23.0
+offset_right = 157.0
+offset_bottom = 126.0
 grow_horizontal = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_yujh1")
 text = "PageTitle"
@@ -101,10 +107,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -474.0
-offset_top = -276.0
-offset_right = -175.0
-offset_bottom = 262.0
+offset_left = -429.0
+offset_top = -178.0
+offset_right = -130.0
+offset_bottom = 244.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_8yndn")
@@ -112,6 +118,7 @@ text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 autowrap_mode = 2
 
 [node name="PicPanel" type="Panel" parent="BasePanel/InfoPanel" unique_id=605018169]
+visible = false
 layout_mode = 0
 offset_left = 832.0
 offset_right = 872.0
@@ -123,8 +130,10 @@ texture = ExtResource("1_uv0yw")
 
 [node name="ReturnButton" type="Button" parent="BasePanel" unique_id=614058713]
 layout_mode = 0
-offset_right = 63.0
+offset_left = -2.0
+offset_right = 61.0
 offset_bottom = 48.0
+theme = ExtResource("3_4or3i")
 text = "X"
 flat = true
 
