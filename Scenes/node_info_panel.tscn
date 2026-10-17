@@ -103,14 +103,12 @@ anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -474.0
 offset_top = -276.0
-offset_right = -306.0
-offset_bottom = 500.0
+offset_right = -175.0
+offset_bottom = 262.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(1.6230104, 0.7225539)
 theme_override_styles/normal = SubResource("StyleBoxFlat_8yndn")
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-fit_content = true
 autowrap_mode = 2
 
 [node name="PicPanel" type="Panel" parent="BasePanel/InfoPanel" unique_id=605018169]

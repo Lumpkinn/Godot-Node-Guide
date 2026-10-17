@@ -3,7 +3,7 @@ var MainMenu = "res://Scenes/MainInfoHub.tscn"
 var InfoPath = "res://Resources/Info/Information.json"
 var InfoData = FileAccess.open(InfoPath, FileAccess.READ) 
 var jsonData = JSON.parse_string(InfoData.get_as_text())
-@onready var IntroTextBox = $Panel/RandomDisclaimer/IntroText
+@onready var IntroTextBox = $Panel/RandomDisclaimer/TextPanel/IntroText
 
 func getBodyInfo(emailType):
 	var GuideInfo = jsonData[(emailType)]

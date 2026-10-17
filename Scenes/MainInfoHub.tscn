@@ -170,11 +170,11 @@ size_flags_horizontal = 4
 size_flags_vertical = 8
 text = "Code, and Nodes"
 
-[node name="CodeAndNodesInfo1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Code-Node" unique_id=2022338111]
+[node name="CodeAndNodesInfo1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Code-Node" unique_id=2022338111 groups=["InfoButtons"]]
 layout_mode = 2
 text = "Making Nodes with code"
 
-[node name="CodeAndNodesInfo2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Code-Node" unique_id=1364721550]
+[node name="CodeAndNodesInfo2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Code-Node" unique_id=1364721550 groups=["InfoButtons"]]
 layout_mode = 2
 text = "Referencing nodes from the Scene Tree"
 
@@ -192,11 +192,11 @@ size_flags_horizontal = 4
 size_flags_vertical = 8
 text = "Signals and Nodes"
 
-[node name="NodesSignalInfo1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node-Signal" unique_id=1228865881]
+[node name="NodesSignalInfo1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node-Signal" unique_id=1228865881 groups=["InfoButtons"]]
 layout_mode = 2
 text = "What are Signals?"
 
-[node name="NodesSignalInfo2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node-Signal" unique_id=785123756]
+[node name="NodesSignalInfo2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/Node-Signal" unique_id=785123756 groups=["InfoButtons"]]
 layout_mode = 2
 text = "Using Signals"
 
@@ -205,28 +205,27 @@ layout_mode = 2
 text = "Signals, and bind()"
 
 [node name="N-A" type="VBoxContainer" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection" unique_id=413285782]
-visible = false
 layout_mode = 2
 alignment = 1
 
-[node name="Label" type="Label" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1944065176]
+[node name="CustomNodes" type="Label" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1944065176]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 8
-text = "Usage Cases"
+text = "Custom Nodes"
 
-[node name="Node1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1317375097]
+[node name="CustomNodes1" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1317375097 groups=["InfoButtons"]]
 layout_mode = 2
-text = "Special things about Control Nodes
+text = "Making Custom Nodes
 "
 
-[node name="Node2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1288136885]
+[node name="CustomNodes2" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=1288136885 groups=["InfoButtons"]]
 layout_mode = 2
-text = "Control Anchors"
+text = "Making Custom Nodes"
 
-[node name="BasicUsageInfo3" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=712381487 groups=["InfoButtons"]]
+[node name="CustomNodes3" type="Button" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection/N-A" unique_id=712381487 groups=["InfoButtons"]]
 layout_mode = 2
-text = "Control Node Alignment"
+text = "Using Custom Nodes"
 
 [node name="HardLessonSelection + Quiz" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=2121889383]
 visible = false
@@ -310,10 +309,10 @@ layout_mode = 1
 
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo1" to="." method="_on_basic_button_1_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo2" to="." method="_on_basic_button_2_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo3" to="." method="_on_basic_button_3_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo3" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo4" to="." method="_on_basic_button_3_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo3" to="." method="_on_basic_button_3_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo4" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo4" to="." method="_on_basic_button_3_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo1" to="." method="_on_type_button_1_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo2" to="." method="_on_type_button_2_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Node Types/TypeInfo3" to="." method="_on_type_button_3_pressed"]

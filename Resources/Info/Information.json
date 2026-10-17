@@ -2,7 +2,7 @@
 	"introduction":
 		{
 		"Title":"Introduction!",
-		"Body": "Welcome to my guide! My name is Lumpkinn, and I'm here to help you understand nodes in godot just a little bit better. This guide is going to cover the basics of 2D Nodes, 3D Nodes, Control Nodes, and show you a few more important ones. Keep in mind that the list and a ton of information about nodes change with the build of godot you're using, so always make sure to check the official documentation if there are any issues. \n And with that, lets get started!",
+		"Body": "Welcome to my guide! \n My name is Lumpkinn, and I'm here to help you understand nodes in godot just a little bit better. \nThis guide is going to cover the basics of 2D Nodes, 3D Nodes, Control Nodes, and show you a few more important ones. \nKeep in mind that the list and a ton of information about nodes change with the build of godot you're using, so always make sure to check the official documentation! \n And with that, lets get started!",
 		"Tooltip": "Throughout this guide, i'll be adding some extra info in the tooltips, so make sure to check them!"
 		},
 	"BasicsInfo1":
