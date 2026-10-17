@@ -1,9 +1,15 @@
 [gd_scene format=3 uid="uid://c2wqhapjee1t7"]
 
 [ext_resource type="Script" uid="uid://dthlffpxk06v3" path="res://Scripts/title_menu.gd" id="1_edeup"]
+[ext_resource type="Shader" uid="uid://cmcm8cmp0t2s1" path="res://Resources/Background.gdshader" id="2_du6tf"]
 [ext_resource type="Theme" uid="uid://wcd7ehpkaena" path="res://Resources/Assets/HeaderText.tres" id="2_qp228"]
 [ext_resource type="FontFile" uid="uid://dndqasmtxxyie" path="res://Resources/Assets/pusab-font/Pusab-MnqP.otf" id="3_du6tf"]
 [ext_resource type="PackedScene" uid="uid://bcyrupgulyb2i" path="res://Scenes/node_info_panel.tscn" id="4_csfgs"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1bbog"]
+shader = ExtResource("2_du6tf")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k5h4w"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ox7fa"]
 bg_color = Color(0.5684477, 0.90865993, 0.91377026, 1)
@@ -43,10 +49,12 @@ scale = Vector2(1, 0.98594517)
 script = ExtResource("1_edeup")
 
 [node name="GeneralPanel" type="Panel" parent="." unique_id=1572565606]
+material = SubResource("ShaderMaterial_1bbog")
 layout_mode = 0
 offset_right = 1152.0
 offset_bottom = 648.0
 theme = ExtResource("2_qp228")
+theme_override_styles/panel = SubResource("StyleBoxFlat_k5h4w")
 
 [node name="Title" type="Label" parent="GeneralPanel" unique_id=666418141]
 layout_mode = 1
@@ -157,6 +165,7 @@ text = "When to use control Nodes"
 [node name="IntermediateLessonSelection" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=326595769]
 layout_mode = 2
 size_flags_vertical = 4
+theme_override_constants/separation = 10
 alignment = 1
 
 [node name="Code-Node" type="VBoxContainer" parent="GeneralPanel/InfoPanel/IntermediateLessonSelection" unique_id=924704664]
@@ -228,7 +237,6 @@ layout_mode = 2
 text = "Using Custom Nodes"
 
 [node name="HardLessonSelection + Quiz" type="BoxContainer" parent="GeneralPanel/InfoPanel" unique_id=2121889383]
-visible = false
 layout_mode = 2
 size_flags_vertical = 8
 alignment = 1

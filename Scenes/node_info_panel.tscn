@@ -118,6 +118,7 @@ offset_right = 872.0
 offset_bottom = 40.0
 
 [node name="Sprite2D" type="Sprite2D" parent="BasePanel/InfoPanel/PicPanel" unique_id=1602444566]
+visible = false
 texture = ExtResource("1_uv0yw")
 
 [node name="ReturnButton" type="Button" parent="BasePanel" unique_id=614058713]
