@@ -1,18 +1,16 @@
 extends Control
 
-#make sure to implement the tooltip, and pass it to the rtf so the user can see it.
-
+#References to everything that the script needs, like the button to return back to the main screen, and the references to the text elements.
 @onready var SelectScreen = "res://Scenes/MainInfoHub.tscn"
 @onready var TitleField = $BasePanel/Label
 @onready var BodyField = $BasePanel/InfoPanel/RichTextLabel
-#@onready var ToolTipField = $BasePanel/InfoPanel/RichTextLabel 
 
-# Called when the node enters the scene tree for the first time.
+
+# Sets the text when the scene is made
 func _ready() -> void:
 	TitleField.set_text(Globasl.title)
 	BodyField.set_text(Globasl.body)
-#	BodyField.set_tooltip(Globasl.tooltip)
 
-
+#returns to the main screen
 func _on_return_button_pressed() -> void:
 	get_tree().change_scene_to_file(SelectScreen)

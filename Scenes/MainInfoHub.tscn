@@ -4,7 +4,6 @@
 [ext_resource type="Shader" uid="uid://cmcm8cmp0t2s1" path="res://Resources/Background.gdshader" id="2_du6tf"]
 [ext_resource type="Theme" uid="uid://wcd7ehpkaena" path="res://Resources/Assets/HeaderText.tres" id="2_qp228"]
 [ext_resource type="FontFile" uid="uid://dndqasmtxxyie" path="res://Resources/Assets/pusab-font/Pusab-MnqP.otf" id="3_du6tf"]
-[ext_resource type="PackedScene" uid="uid://bcyrupgulyb2i" path="res://Scenes/node_info_panel.tscn" id="4_csfgs"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1bbog"]
 shader = ExtResource("2_du6tf")
@@ -338,10 +337,6 @@ text = "When to use 3D nodes"
 [node name="Button" type="Button" parent="GeneralPanel/InfoPanel/HardLessonSelection + Quiz/Usage Cases" unique_id=1044702964 groups=["InfoButtons"]]
 layout_mode = 2
 text = "When to use control Nodes"
-
-[node name="NodeInfoPanel" parent="." unique_id=1427236716 instance=ExtResource("4_csfgs")]
-visible = false
-layout_mode = 1
 
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo1" to="." method="_on_basic_button_1_pressed"]
 [connection signal="pressed" from="GeneralPanel/InfoPanel/BasicsLessonSelection/Basic_Info/BasicsInfo2" to="." method="_on_basic_button_2_pressed"]

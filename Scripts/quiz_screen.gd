@@ -1,12 +1,13 @@
 extends Control
+#This is a work in progress for now.
 
+#this script is supposed to take the info from the last 9 entries in the .json, and return them in a quiz format
+
+#references for future me!
 @onready var AnswerContainer = $ItemList
 @onready var QuestionNum =$QuestionNum
 
 func _ready() -> void:
 	QuestionNum.set_text(Globasl.title)
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+#find a signal that tells me which answer was chosen, and then tell the user if they were right or not.

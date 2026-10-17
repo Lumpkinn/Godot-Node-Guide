@@ -1,4 +1,5 @@
 extends Control
+#Goes to the info display scene.
 @onready var InfoScene = "res://Scenes/title_menu.tscn"
 
 #Accessing the data in the .JSON
@@ -38,7 +39,6 @@ func _on_pressed(which: Button):
 
 #gets all of the buttons when the program starts.
 func _ready() -> void:
-	#testing bind() instead
 	var button = get_tree().get_nodes_in_group("InfoButtons")
 	for InfoButton:Button in button:
 		var pressed = Callable(self, "_on_pressed").bind(InfoButton)
