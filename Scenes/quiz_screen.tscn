@@ -1,6 +1,18 @@
 [gd_scene format=3 uid="uid://lkbqc1h0qhff"]
 
 [ext_resource type="Script" uid="uid://das4hrdt03guo" path="res://Scripts/quiz_screen.gd" id="1_8lpwt"]
+[ext_resource type="Shader" uid="uid://cmcm8cmp0t2s1" path="res://Resources/Background.gdshader" id="2_bmmr2"]
+[ext_resource type="Texture2D" uid="uid://cae7w7kjdx7c1" path="res://Resources/Assets/icon.svg" id="3_cfds5"]
+[ext_resource type="FontFile" uid="uid://dndqasmtxxyie" path="res://Resources/Assets/pusab-font/Pusab-MnqP.otf" id="3_tnpll"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_v2jr1"]
+shader = ExtResource("2_bmmr2")
+
+[sub_resource type="LabelSettings" id="LabelSettings_tnpll"]
+font = ExtResource("3_tnpll")
+font_size = 45
+outline_size = 8
+outline_color = Color(0, 0, 0, 1)
 
 [node name="QuizScreen" type="Control" unique_id=593631508]
 layout_mode = 3
@@ -11,31 +23,55 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_8lpwt")
 
-[node name="QuestionNum" type="Label" parent="." unique_id=682920937]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-
-[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1921851061]
-visible = false
+[node name="Panel" type="Panel" parent="." unique_id=59064374]
+material = SubResource("ShaderMaterial_v2jr1")
 layout_mode = 1
-anchors_preset = 12
-anchor_top = 1.0
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
-grow_vertical = 0
+grow_vertical = 2
 
-[node name="ItemList" type="ItemList" parent="." unique_id=384274556]
+[node name="QuestionNum" type="Label" parent="Panel" unique_id=682920937]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -526.0
+offset_top = 33.0
+offset_right = 534.0
+offset_bottom = 62.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+text = "Youskoso watashi wa no \"Computer Science\""
+label_settings = SubResource("LabelSettings_tnpll")
+
+[node name="ItemList" type="ItemList" parent="Panel" unique_id=384274556]
 layout_mode = 1
 anchors_preset = 14
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
+offset_left = -2.0
+offset_top = -204.0
+offset_right = -2.0
+offset_bottom = 200.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_horizontal = 4
+tooltip_text = "kjfgdslkuasgfiyuagsiou
+"
+allow_search = false
+max_text_lines = 2
+auto_width = true
+auto_height = true
+wraparound_items = false
 item_count = 3
 fixed_column_width = 20
-item_0/text = "yo"
-item_1/text = "yo2"
-item_2/text = "yo3"
+item_0/text = "Hello, World"
+item_0/icon = ExtResource("3_cfds5")
+item_1/text = "hgdlkjhfalkjhkjfaslhflkjashdlkjfhklasjdhflkjashflkjshalkfjhsalkjfhlkjasdhfkljashflkdjhaskljdfh"
+item_1/icon = ExtResource("3_cfds5")
+item_2/text = "Hello, World"
+item_2/icon = ExtResource("3_cfds5")

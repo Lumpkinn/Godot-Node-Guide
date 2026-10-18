@@ -5,7 +5,7 @@ extends Control
 
 #references for future me!
 @onready var AnswerContainer = $ItemList
-@onready var QuestionNum =$QuestionNum
+@onready var QuestionNum = $Panel/QuestionNum
 
 func _ready() -> void:
 	QuestionNum.set_text(Globasl.title)
